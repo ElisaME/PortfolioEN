@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<title>Elisa Martinez</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/hamburgers.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/scrolling-nav.css">
+</head>
+<body>
+	<section id="home">
+		<!-- PRIMERA SECCION / HEADER / VIDEO-->
+		<div class="contenedor">
+			<!-- VIDEO -->
+			<div class="video-container">
+				<div class="filter"></div>
+				<video autoplay loop poster="Aloha-Mundo/Snapshots/Aloha-Mundo.jpg"> 
+					<source src="Aloha-Mundo/MP4/Aloha-Mundo.mp4" type="video/mp4" /> 
+					<source src="Aloha-Mundo/OGV/Aloha-Mundo.ogv" type="video/ogg" /> 
+					<source src="Aloha-Mundo/WEBM/Aloha-Mundo.webm" type="video/webm" /> 
+				</video>
+			</div>
+			<!-- MENU HAMBURGUESA -->
+		    <div id="menu" class="text-right hamburger hamburger--collapse" type="button"
+	        aria-label="Menu" aria-controls="navigation">
+				<span class="hamburger-box">
+					<span id="hamburgesa" class="hamburger-inner"></span>
+				</span>
+			</div>
+			<!-- Menu de navegacion -->
+			<ul class="opciones-menu text-right animated slideInRight">
+				<li class="menu-item"><a href="#home" class="page-scroll">01 INICIO</a></li>
+				<li class="menu-item"><a href="#proceso" class="page-scroll">02 PROCESO</a></li>
+				<li class="menu-item"><a href="#sobreMi" class="page-scroll">03 SOBRE MÍ</a></li>
+				<li class="menu-item"><a href="#proyectos" class="page-scroll">04 PROYECTOS</a></li>
+				<li class="menu-item"><a href="#skills" class="page-scroll">05 HERRAMIENTAS</a></li>
+				<li class="menu-item"><a href="#contacto" class="page-scroll">06 CONTACTO</a></li>
+			</ul>
+		</div>	
+	</section>
+	
+	<!-- TEXTO EN VIDEO -->
+	<div id="hola" class="text-center">
+		<h1>¡HOLA MUNDO!</h1>
+		<h3>Mi nombre es Elisa</h3>
+	</div>
+	
+	<!-- Proceso -->
+	<section id="proceso">
+		<div class="container">
+			<a href="#proyectos"><div class="triangulo1-down"></div></a>
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="miProceso text-center">Cuando empiezo un nuevo proyecto este es MI PROCESO, para estar lo mejor preparada y aprovechar al máximo mis recursos.</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="circulo">
+						<img src="imagenes/escuchar.png" alt="escuchar" class="img-proceso1">
+						<p class="text-center proceso-item">Escuchar</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="circulo">
+						<img src="imagenes/aprender2.png" alt="aprendo" class="img-proceso2">
+						<p class="text-center proceso-item">Aprender</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="circulo">
+						<img src="imagenes/disenio.png" alt="diseño" class="img-proceso3">
+						<p class="text-center proceso-item">Diseñar</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="circulo">
+						<img src="imagenes/code.png" alt="codifico" class="img-proceso4">
+						<p class="text-center proceso-item">Codificar</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Sobre Mi -->
+	<section id="sobreMi">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center">
+						Sobre mí
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-xs-12">
+					<div class="text-center">
+						<div class="caja"></div>
+					</div>
+				</div>
+				<div class="col-md-9 col-xs-12">
+					<div class="text-center">
+						<p>Siempre en constante construcción, aprendiendo y desaprendiendo, me fascina la forma en la que las tecnologías de información y comunicación transforman nuestra vida, junto con el arte y la educación me apasionan sus infinitas posibilidades de creación y potencial para la transformación social, emprendedora y comprometida, busco aprender y compartir algo nuevo cada día.</p>
+					</div>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="text-center">
+						<p class="tlt frase">Nada que valga la pena se ha logrado sin esfuerzo</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Proyectos -->
+	<section id="proyectos">
+		<div class="container">
+			<a href="#skills"><div class="triangulo2-down"></div></a>
+			<div class="row titulo-proyecto">
+				<h2 class="text-center">Algunos de mis proyectos...</h2>
+			</div>
+			<!-- Proyecto1 -->
+			<div class="col-md-5 col-xs-12 p0 proyecto1">
+				<div class="imagenFondo">
+					<div class="descripcion text-center">
+						<h3>Fundacion Gema A.C.</h3>
+						<div class="verMas">	
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proyecto1">Ver más</button>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- Proyecto2 -->
+			<div class="col-md-3 col-xs-12 p0 proyecto2">
+				<div class="imagenFondo">
+					<div class="descripcion text-center">
+						<h3>Ecomunidad</h3>
+						<div class="verMas">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proyecto2">Ver más</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Proyecto 3 -->
+			<div class="col-md-4 col-xs-12 p0 proyecto3">
+				<div class="imagenFondo">
+					<div class="descripcion text-center">
+						<h3>Flat Theme</h3>
+						<div class="verMas">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proyecto3">Ver más</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Proyecto 4 -->
+			<div class="col-md-4 col-xs-12 p0 proyecto4">
+				<div class="imagenFondo">
+					<div class="descripcion text-center">
+						<h3>Love Blog</h3>
+						<div class="verMas">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proyecto4">Ver más</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Proyecto 5 -->
+			<div class="col-md-5 col-xs-12 p0 proyecto5">
+				<div class="imagenFondo">
+					<div class="descripcion text-center">
+						<h3>Triangle Theme</h3>
+						<div class="verMas">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proyecto5">Ver más</button>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- Proyecto 6 -->
+			<div class="col-md-3 col-xs-12 p0 proyecto6">
+				<div class="imagenFondo">
+					<div class="descripcion text-center">
+						<h3>Fashion Accesories</h3>
+						<div class="verMas">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proyecto6">Ver más</button>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MODAL Proyecto 1 -->
+	<!-- Modal -->
+	<div id="proyecto1" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+		<!-- Modal content-->
+			<div class="modal-content">
+	    		<div class="modal-header">
+	    		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	    		<h2 class="modal-title text-center">Proyecto desarrollado para la Fundación Gema A.C.</h2>
+	    	</div>
+	    	<div class="modal-body text-center">
+	    		<div class="mockup">
+	    			<img src="imagenes/Proyectos/GemaMacIphone.png" alt="">
+	    			<img src="imagenes/Proyectos/gemalanding1.png" alt="mockupGema.png">
+	    			<img src="imagenes/Proyectos/gemaLanding2.png" alt="">
+	    			<a class="btn btn-block btn-info verSitio" role="button" target="blank" href="http://nellysaavedra.github.io/HackGrissEliNello/">Visitar Sitio </a>
+	    		</div>
+	    	</div>
+	    	<div class="modal-footer">
+	    		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal Proyecto 2 -->
+	<div id="proyecto2" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+	    			<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title text-center">Proyecto Ecomunidad</h2>
+	    		</div>
+	    	<div class="modal-body text-center">
+	    		<div class="mockup">
+	    			<img src="imagenes/Proyectos/ecomunidadMac.png" alt="">	
+	    			<img src="imagenes/Proyectos/ecomunidad1.png" alt="">
+	    			<img src="imagenes/Proyectos/ecomunidad2.png" alt="">
+	    			<img src="imagenes/Proyectos/ecomunidad3.png" alt="">
+	    			<img src="imagenes/Proyectos/ecomunidad4.png" alt="">
+	    			<img src="imagenes/Proyectos/ecomunidad5.png" alt="">
+	    			<img src="imagenes/Proyectos/ecomunidad6.png" alt="">
+	    			<img src="imagenes/Proyectos/ecomunidad7.png" alt="">
+	    		</div>
+	    	</div>
+	    	<div class="modal-footer">
+	    		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal Proyecto 3 -->
+	<div id="proyecto3" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+	    			<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title text-center">Proyecto Flat Theme</h2>
+	    		</div>
+	    	<div class="modal-body text-center">
+	    		<div class="mockup">
+	    			<img src="imagenes/Proyectos/FlatThemeMacIphone.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/flat1.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/flat2.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/flat3.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/flat4.png" alt="">
+	    			<a class="btn btn-block btn-info verSitio" role="button" target="blank" href="http://elisame.github.io/Flat-Theme/index.html">Visitar Sitio </a>
+	    		</div>
+	    	</div>
+	    	<div class="modal-footer">
+	    		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal Proyecto 4 -->
+	<div id="proyecto4" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+	    			<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title text-center">Proyecto Love Blog</h2>
+	    		</div>
+	    	<div class="modal-body text-center">
+	    		<div class="mockup">
+	    			<img src="imagenes/Proyectos/LoveBlogMacIphone.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/love1.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/love2.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/love3.png" alt="">	
+	    			<a class="btn btn-block btn-info verSitio" role="button" target="blank" href="http://elisame.github.io/LoveBlog/">Visitar Sitio </a>
+	    		</div>
+	    	</div>
+	    	<div class="modal-footer">
+	    		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal Proyecto 5 -->
+	<div id="proyecto5" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+	    			<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title text-center">Proyecto Triangle Theme</h2>
+	    		</div>
+	    	<div class="modal-body text-center">
+	    		<div class="mockup">
+	    			<img src="imagenes/Proyectos/TriangleThemeMacIphone.png" alt="">	
+	    			<hr>
+	    			<img src="imagenes/Proyectos/triangle1.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/triangle2.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/triangle3.png" alt="">	
+	    			<a class="btn btn-block btn-info verSitio" role="button" target="blank" href="http://elisame.github.io/TriangleTheme/">Visitar Sitio </a>
+	    		</div>
+	    	</div>
+	    	<div class="modal-footer">
+	    		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal Proyecto 6 -->
+	<div id="proyecto6" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+	    			<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title text-center">Proyecto Fashion Accesories</h2>
+	    		</div>
+	    	<div class="modal-body text-center">
+	    		<div class="mockup">
+	    			<img src="imagenes/Proyectos/fashionMacIphone.png" alt="">	
+	    			<hr>
+	    			<img src="imagenes/Proyectos/fashion1.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/fashion2.png" alt="">
+	    			<hr>
+	    			<img src="imagenes/Proyectos/fashion3.png" alt="">	
+	    			<a class="btn btn-block btn-info verSitio" role="button" target="blank" href="http://elisame.github.io/FashionAccesories/">Visitar Sitio </a>
+	    		</div>
+	    	</div>
+	    	<div class="modal-footer">
+	    		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+	
+	<!-- Skills -->
+	<section id="skills">
+		<div class="container">
+			<a href="#contacto"><div class="triangulo1-down"></div></a>
+			<!-- Primer renglón -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center">Mis herramientas</h2>
+				</div>
+			</div>
+			<!-- Segundo renglón -->
+			<div class="row">
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="skill-name">
+						<img src="imagenes/html-5.png" alt="">
+						<p>Avanzado</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="skill-name">
+						<img src="imagenes/css-3.png" alt="">
+						<p>Avanzado</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="skill-name">
+						<img src="imagenes/javascript.png" alt="">
+						<p>Intermedio</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="skill-name">
+						<img src="imagenes/jquery.png" alt="">
+						<p>Intermedio</p>
+					</div>
+				</div>
+			</div>
+			<!-- Tercer renglón -->
+			<div class="row">
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="skill-name">
+						<img src="imagenes/sass.png" alt="">
+						<p class="mg-l">Básico</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="skill-name">
+						<img src="imagenes/bootstrap.png" alt="">
+						<p class="mg-l">Básico</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="skill-name">
+						<img src="imagenes/github-logo.png" alt="">
+						<p class="mg-l">Intermedio</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<div class="skill-name">
+						<img class="skill2" src="imagenes/google-ad.png" alt="adwords">
+						<p class="mg-l">Básico</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- CONTACTO -->
+	<section id="contacto">
+		<div class="filtro"></div>
+		<div class="container">
+			<div class="row">
+				<div class="contact-text">
+					<p class="encabezado text-center">Hagamos algo juntos!</p>
+					<h3 class="text-center">Si te gustó mi trabajo o tienes algún comentario<br>puedes contactarme en:</h3>
+					<div class="text-center">
+						<p>elisam.esquivel@gmail.com</p>
+						<a href="https://github.com/ElisaME" target="blank"><img src="imagenes/github-sign.png" alt="github.io/ElisaME"></a>
+						<a href="https://www.linkedin.com/in/elisamesquivel" target="blank"><img src="imagenes/linkedin-sign.png" alt=""></a>
+						<br>
+						<a class="cv" href="imagenes/cvElisaMartinez 2.pdf" target="_blank">Descargar CV</a>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Scripts para bootstrap-->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/scrolling-nav.js"></script>
+	<script src="js/jquery.lettering-0.6.min.js"></script>
+	<script src="js/jquery.textillate.js"></script>	
+    </body>
+</html>
