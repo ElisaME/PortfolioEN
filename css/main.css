@@ -583,7 +583,8 @@ h2 {
       width: 90%; }
     .modal-dialog .verSitio {
       width: 40%;
-      margin: 2% auto; }
+      margin: 4% auto 2%;
+      font-size: small; }
     .modal-dialog h2 {
       font-size: 20px; }
     .modal-dialog hr {
